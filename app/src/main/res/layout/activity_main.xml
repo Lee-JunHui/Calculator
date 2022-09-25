@@ -51,12 +51,15 @@
 
         <Button
             style="@style/buttonNumber"
+            android:textColor="@color/gray"
             android:text="`"/>
         <Button
             style="@style/buttonNumber"
+            android:textColor="@color/gray"
             android:text="`"/>
         <Button
             style="@style/buttonNumber"
+            android:textColor="@color/gray"
             android:text="`"/>
         <Button
             style="@style/buttonNumber"
@@ -68,7 +71,7 @@
             style="@style/buttonNumber"
             android:textColor="@color/orange"
             android:onClick="backSpaceAction"
-            android:text="<"/>
+            android:text="(-"/>
 
     </LinearLayout>
 
@@ -82,9 +85,11 @@
             android:text="C"/>
         <Button
             style="@style/buttonOperator"
+            android:textColor="@color/gray"
             android:text="()"/>
         <Button
             style="@style/buttonOperator"
+            android:textColor="@color/gray"
             android:text="%"/>
         <Button
             style="@style/buttonOperator"
@@ -151,6 +156,7 @@
 
         <Button
             style="@style/buttonNumber"
+            android:textColor="@color/gray"
             android:text="+/-"/>
         <Button
             style="@style/buttonNumber"
